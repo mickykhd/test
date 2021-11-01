@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="web.css" />
   </head>
   <body>
-    <dis class="container">
+    <div class="container">
       <div class="top-header">
         <div class="logo-page">
           <img src="img/fws-logo.jpg" alt="" class="logo" />
@@ -66,22 +66,24 @@
             <li><a href="">design services</a></li>
             <li><a href="">research and Analysis</a></li>
             <li><a href="">web analysis</a></li>
+            <li>
+              <div class="choose">
+                <select name="cars" id="cars">
+                  <option value="volvo">Other Services</option>
+                  <option value="HTML">HTML</option>
+                  <option value="CSS">CSS</option>
+                  <option value="JAVA SCRIPT">JAVA SCRIPT</option>
+                </select>
+              </div>
+            </li>
           </ul>
-          <div class="choose">
-            <select name="cars" id="cars">
-              <option value="volvo">Other Services</option>
-              <option value="HTML">HTML</option>
-              <option value="CSS">CSS</option>
-              <option value="JAVA SCRIPT">JAVA SCRIPT</option>
-            </select>
-          </div>
         </div>
       </header>
       <!-- middle -->
+      <div class="middle">
+        <h2 class="middle-line">Virtual assistant services</h2>
+      </div>
       <div>
-        <div class="middle">
-          <h2 class="middle-line">Virtual assistant services</h2>
-        </div>
         <div class="man-cont">
           <div class="pressediv">
             <h1 class="pressed">Presssed Time for?</h1>
@@ -118,9 +120,6 @@
         </div>
       </div>
 
-      <!-- end of middle -->
-      <!-- content -->
-      <!-- start of left side -->
       <div class="total">
         <div class="leftss">
           <div class="hwt-main">
@@ -187,8 +186,6 @@
           </div>
         </div>
 
-        <!-- end of left side -->
-        <!-- start of right side -->
         <div class="rghtss">
           <div class="rightcnt">
             <div class="rhthd">
@@ -252,11 +249,9 @@
               nihil quidem, vero eos aut.
             </p>
           </div>
-          <br /><br />
           <div class="hirea">
             <a href="">hire a virtual assistance!</a>
           </div>
-          <br /><br />
           <div class="rhtbtn">
             <button><a href="">&#10149;Contact Us</a></button>
           </div>
@@ -301,6 +296,6 @@
         </div>
       </footer>
       <!-- end of footer -->
-    </dis>
+    </div>
   </body>
 </html>

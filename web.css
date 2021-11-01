@@ -84,6 +84,10 @@ video {
   background: transparent;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
 body {
   line-height: 1;
 }
@@ -115,7 +119,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -207,8 +211,7 @@ select {
 .search {
   float: right;
 }
-.hdings a {
-}
+
 .search-btn {
   background-color: crimson;
   border-radius: 5px;
@@ -220,14 +223,12 @@ select {
 .logo {
   width: 500px;
 }
-.abcd {
-}
+
 .head2 {
   height: 42px;
 }
 
 .main-nav {
-  height: 50px;
   background: linear-gradient(
     0deg,
     rgba(148, 57, 57, 1) 0%,
@@ -235,20 +236,26 @@ select {
   );
   list-style: none;
   display: flex;
-  position: absolute;
   width: 100%;
   border-top: 1px solid red;
   border-bottom: 1px solid red;
 }
+
+.main-nav li:last-child {
+  width: 29%;
+  text-align: right;
+  padding-right: 10 px;
+}
 .main-nav li {
   border: 1px solid red;
-  width: 140px;
   display: block;
 }
+
 .main-nav li a {
   color: white;
   display: block;
-  font-size: 20px;
+  font-size: 1rem;
+  height: 100%;
   padding: 2px;
   text-decoration: none;
   text-transform: capitalize;
@@ -261,18 +268,12 @@ select {
     rgba(169, 17, 18, 1) 94%
   );
 }
-.choose {
-  /* margin-top: 10px; */
-  position: relative;
-  float: right;
-  margin-right: 40px;
-  margin-top: 10px;
-}
+
 #cars {
-  width: 15rem;
   height: 36px;
   border-radius: 5px;
 }
+
 #cars:hover {
   cursor: pointer;
 }
@@ -280,7 +281,6 @@ select {
 /* start of middle */
 .middle-line {
   font-family: cursive;
-  padding-top: 70px;
   padding-bottom: 5px;
   margin-left: 10px;
 }
@@ -360,7 +360,6 @@ select {
 }
 /* end of topcontnr */
 .lorem {
-  width: 35rem;
   padding: 10px;
 }
 .contact-us {
@@ -390,7 +389,6 @@ select {
       rgba(254, 244, 237, 1) 100%
     );
   background-repeat: no-repeat;
-  height: 290px;
 }
 .pressediv {
   margin-left: 450px;
@@ -404,12 +402,13 @@ select {
 /* end of middle */
 /* content */
 /* start of left side */
-.leftss {
+.leftss,
+.rghtss {
   padding: 30px;
+  width: 50%;
 }
 .hwt-main {
   border: 1px solid rgba(128, 128, 128, 0.315);
-  width: 470px;
   margin-bottom: 19px;
   height: 177px;
   border-radius: 4px;
@@ -445,14 +444,10 @@ select {
 }
 .rightcnt {
   border: 1px solid #00000045;
-  width: 716px;
   background-color: white;
-  height: 162px;
   border-radius: 4px;
 }
-.aqws {
-  width: 40%;
-}
+
 .aqws ul li {
   padding: 4px;
 }
@@ -469,11 +464,7 @@ select {
 .total {
   display: flex;
 }
-.rghtss {
-  margin-left: 16px;
-  margin-top: 30px;
-  width: 716px;
-}
+
 .para {
   margin-top: 15px;
 }
